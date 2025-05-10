@@ -1,4 +1,4 @@
-# FitnessTrackerApp
+
 index.html
 
 <!DOCTYPE html>
@@ -11,8 +11,7 @@ index.html
 </head>
 <body>
     <div class="container">
-        <h1>Fitness Tracker</h1>
-        
+        <h1>Fitness Tracker</h1>     
         <div class="form-section">
             <h2>Record a Workout</h2>
             <form id="workout-form">
@@ -22,7 +21,6 @@ index.html
                 <button type="submit">Add Workout</button>
             </form>
         </div>
-
         <div class="goal-section">
             <h2>Set Fitness Goal</h2>
             <input type="text" id="goal" placeholder="Your Fitness Goal">
@@ -35,7 +33,6 @@ index.html
             <ul id="workout-list"></ul>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
